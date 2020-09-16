@@ -20,6 +20,6 @@ class TweetsController < ApplicationController
   private
 
   def tweet_params
-    params.require(:tweet_tag).permit(:message, :name)
+    params.require(:tweets_tag).permit(:message, :name)
   end
 end
